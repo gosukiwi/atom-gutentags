@@ -1,0 +1,29 @@
+{
+  "name": "atom-gutentags",
+  "main": "./lib/atom-gutentags",
+  "version": "0.0.0",
+  "description": "Generate tag files using ctags magically and unobtrusively",
+  "keywords": [
+    "ctags"
+  ],
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "repository": "https://github.com/atom/atom-gutentags",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "glob-gitignore": "^1.0.14",
+    "ignore": "^5.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
