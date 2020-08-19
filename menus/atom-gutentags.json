@@ -1,22 +1,14 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle atom-gutentags",
-        "command": "atom-gutentags:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-gutentags",
+          "label": "Gutentags",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "atom-gutentags:toggle"
+              "label": "Generate Tag Files",
+              "command": "atom-gutentags:generate"
             }
           ]
         }
