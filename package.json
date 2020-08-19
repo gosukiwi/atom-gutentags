@@ -1,7 +1,7 @@
 {
   "name": "atom-gutentags",
   "main": "./lib/atom-gutentags",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generate tag files using ctags magically and unobtrusively",
   "keywords": [
     "ctags"
