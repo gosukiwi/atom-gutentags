@@ -9,7 +9,7 @@
   "activationHooks": [
     "core:loaded-shell-environment"
   ],
-  "repository": "https://github.com/atom/atom-gutentags",
+  "repository": "https://github.com/gosukiwi/atom-gutentags",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
