@@ -12,8 +12,8 @@ It will use your `.gitignore` file to know what files to ignore out of the box.
 Note that if you don't have `ctags` installed, this will do nothing. It's
 designed to "just work" and remain unnoticed and out of your way.
 
-Atom already provides support for tagfiles so you can use `ctrl-]` to easily
-navigate through tags!
+Atom [already provides support](https://atom.io/packages/symbols-view) for
+tagfiles so you can use `ctrl-]` to easily navigate through tags!
 
 # Ignoring Files
 
@@ -21,3 +21,7 @@ By default, `.gitignore` will be picked up. If you want to ignore some files
 only when generating tags (eg: specs, or JSON files), create a `.tagignore`
 file. Anything valid in a `.gitignore` file is also valid in a `.tagignore`
 file.
+
+# Why
+There are similar plugins out there. But they do too for my liking. All this
+does is manage the `tags` file, and nothing else.
