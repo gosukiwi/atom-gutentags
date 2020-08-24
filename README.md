@@ -15,7 +15,8 @@ designed to "just work" and remain unnoticed and out of your way.
 Atom [already provides support](https://atom.io/packages/symbols-view) for
 tagfiles so you can use `symbols-view:go-to-declaration` to easily navigate 
 through tags! (TIP: Bind it to something like `ctrl-]` or use 
-[vim-mode-plus](https://atom.io/packages/vim-mode-plus))
+[vim-mode-plus](https://atom.io/packages/vim-mode-plus), which does this for
+you already, and gives you an awesome productivity boost!)
 
 # Ignoring Files
 
