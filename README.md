@@ -13,7 +13,9 @@ Note that if you don't have `ctags` installed, this will do nothing. It's
 designed to "just work" and remain unnoticed and out of your way.
 
 Atom [already provides support](https://atom.io/packages/symbols-view) for
-tagfiles so you can use `ctrl-]` to easily navigate through tags!
+tagfiles so you can use `symbols-view:go-to-declaration` to easily navigate 
+through tags! (TIP: Bind it to something like `ctrl-]` or use 
+[vim-mode-plus](https://atom.io/packages/vim-mode-plus))
 
 # Ignoring Files
 
@@ -23,5 +25,5 @@ file. Anything valid in a `.gitignore` file is also valid in a `.tagignore`
 file.
 
 # Why
-There are similar plugins out there. But they do too for my liking. All this
-does is manage the `tags` file, and nothing else.
+There are similar plugins out there. But they do too much for my liking. All 
+this does is manage the `tags` file, and nothing else.
