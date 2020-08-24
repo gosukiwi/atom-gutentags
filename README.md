@@ -7,6 +7,9 @@ Gutentags is designed to work with [Universal Ctags](https://ctags.io/), the
 latest and most maintained implementation of ctags, and is (unsurprisingly)
 inspired by [vim-gutentags](https://github.com/ludovicchabant/vim-gutentags).
 
+__IMPORTANT__: This won't work with macOS's default `ctags`. It needs 
+Universal Ctags.
+
 It will use your `.gitignore` file to know what files to ignore out of the box.
 
 Note that if you don't have `ctags` installed, this will do nothing. It's
